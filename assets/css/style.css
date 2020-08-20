@@ -1450,6 +1450,12 @@ label {
   line-height: 47px;
   margin-bottom: 0;
 }
+.heading .heading-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 47px;
+  margin-bottom: 0;
+}
 .heading .heading-desc {
   font-size: 16px;
   font-weight: 400;
