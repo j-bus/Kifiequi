@@ -1,13 +1,15 @@
 <?php require("PHPMailer/PHPMailerAutoload.php");
 
 // ADD your Email and Name
-$recipientEmail='engaymanfikry@gmail.com';
-$recipientName='John Doe';
+$recipientEmail='kifiequi@gmail.com';
+$recipientName='Maria Garcia';
 
 //collect the posted variables into local variables before calling $mail = new mailer
 
 $senderName = $_POST['name'];
 $senderPhone = $_POST['phone'];
+$senderEmail = $_POST['email'];
+$senderComment = $_POST['comment'];
 $senderSubject = 'New Message From ' . $senderName;
 $senderType = $_POST['user'];
 $senderSpeciality = $_POST['speciality'];
@@ -35,10 +37,10 @@ $mail->AddAddress($recipientEmail, $recipientName);
 //now make those variables the body of the emails
 $message = '<html><body>';
 $message .= '<table rules="all" style="border:1px solid #666;width:300px;" cellpadding="10">';
-$message .= ($senderName) ? "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . $senderName . "</td></tr>" : '';
-$message .= ($senderPhone) ?"<tr><td><strong>Phone:</strong> </td><td>" . $senderPhone . "</td></tr>" : '';
-$message .= ($senderType) ?"<tr><td><strong>User Type:</strong> </td><td>" . $senderType . "</td></tr>" : '';
-$message .= ($senderSpeciality) ?"<tr><td><strong>Speciality:</strong> </td><td>" . $senderSpeciality . "</td></tr>" : '';
+$message .= ($senderName) ? "<tr style='background: #eee;'><td><strong>Nombre:</strong> </td><td>" . $senderName . "</td></tr>" : '';
+$message .= ($senderPhone) ?"<tr><td><strong>Teléfono:</strong> </td><td>" . $senderPhone . "</td></tr>" : '';
+$message .= ($senderEmail) ?"<tr><td><strong>Email:</strong> </td><td>" . $senderEmail . "</td></tr>" : '';
+$message .= ($senderComment) ?"<tr><td><strong>Comentario:</strong> </td><td>" . $senderComment . "</td></tr>" : '';
 $message .= "</table>";
 $message .= "</body></html>";
 

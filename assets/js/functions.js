@@ -210,14 +210,14 @@
     contactForm.validate({
         debug: false,
         submitHandler: function (contactForm) {
-            $(contactResult, contactForm).html('Please Wait...');
+            $(contactResult, contactForm).html('Por favor espera...');
             $.ajax({
                 type: "POST",
                 url: "assets/php/contact.php",
                 data: $(contactForm).serialize(),
                 timeout: 20000,
                 success: function (msg) {
-                    $(contactResult, contactForm).html('<div class="alert alert-success" role="alert"><strong>Thank you. We will contact you shortly.</strong></div>').delay(3000).fadeOut(2000);
+                    $(contactResult, contactForm).html('<div class="alert alert-success" role="alert"><strong>Gracias, nos pondremos en contacto contigo en breve.</strong></div>').delay(3000).fadeOut(2000);
                 },
                 error: $('.thanks').show()
             });
