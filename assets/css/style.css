@@ -60,6 +60,11 @@ body {
   margin: 0;
 }
 
+.logo-kifiequi {
+  max-width: 120px;
+  margin-top: 10px;
+}
+
 .wrapper {
   background-color: #ffffff;
 }
