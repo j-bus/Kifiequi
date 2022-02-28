@@ -296,7 +296,7 @@ p {
   }
 }
 /* Small Devices, Tablets */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
   text-center-sm {
     text-align: center !important;
   }
@@ -369,14 +369,14 @@ section {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1100px) {
   section {
     padding-top: 90px;
     padding-bottom: 90px;
   }
 }
 /* Custom, iPhone Retina */
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 1100px) {
   /* All margin */
   .m-0 {
     margin: 0 !important;
@@ -839,7 +839,7 @@ section {
     padding-left: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
   .text-center-sm {
     text-align: center !important;
   }
@@ -1469,7 +1469,7 @@ label {
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1100px) {
   .heading {
     margin-bottom: 30px;
   }
@@ -1539,7 +1539,7 @@ label {
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1100px) {
   .header {
     height: 80px;
   }
@@ -1778,7 +1778,7 @@ li.open > a:focus {
     margin: 15px 0;
   }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1100px) {
   .hero {
     padding-top: 240px;
   }
@@ -2076,7 +2076,7 @@ li.open > a:focus {
   }
 }
 /* Small Devices, Tablets */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
   .feature-panel {
     margin-bottom: 20px;
   }
@@ -2320,7 +2320,7 @@ li.open > a:focus {
   margin-bottom: 0;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1100px) {
   .pricing-filter {
     margin-bottom: 50px;
   }
@@ -2638,7 +2638,7 @@ li.open > a:focus {
   }
 }
 /* Small Devices, Tablets */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
   .landing-hero {
     height: auto;
     padding-top: 100px;
