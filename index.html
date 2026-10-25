@@ -1,15 +1,51 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="es">
 
   <head>
     <!-- Document Meta ============================================= -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--IE Compatibility Meta-->
-    <meta name="author" content="zytheme"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Kifiequi">
+    <meta name="author" content="María K. García-Herrera Murillo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Quiropráctica y rehabilitación equina con María K. García-Herrera, veterinaria colegiada. Sesiones presenciales, asesorías online y formación para propietarios.">
+    <link rel="canonical" href="https://kifiequi.es/">
     <link href="assets/images/photos/favicon.ico" rel="icon">
+
+    <!-- Open Graph / redes sociales ============================================= -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="Kifiequi">
+    <meta property="og:url" content="https://kifiequi.es/">
+    <meta property="og:title" content="Kifiequi · Quiropráctica y rehabilitación equina">
+    <meta property="og:description" content="Quiropráctica y rehabilitación equina con María K. García-Herrera, veterinaria colegiada. Sesiones presenciales, asesorías online y formación para propietarios.">
+    <meta property="og:image" content="https://kifiequi.es/assets/images/photos/portada-1.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="800">
+    <meta property="og:image:alt" content="María palpando el dorso de un caballo tordo">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Datos estructurados ============================================= -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VeterinaryCare",
+      "name": "Kifiequi",
+      "description": "Quiropráctica y rehabilitación equina.",
+      "url": "https://kifiequi.es/",
+      "logo": "https://kifiequi.es/assets/images/photos/logo.png",
+      "image": "https://kifiequi.es/assets/images/photos/portada-1.jpg",
+      "email": "info@kifiequi.es",
+      "openingHours": "Mo-Fr 09:00-20:00",
+      "sameAs": ["https://www.instagram.com/kifiequi/"],
+      "founder": {
+        "@type": "Person",
+        "name": "María K. García-Herrera Murillo",
+        "jobTitle": "Veterinaria",
+        "alumniOf": "Universidad Complutense de Madrid"
+      }
+    }
+    </script>
 
     <!-- Fonts ============================================= -->
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,400i,500,600,700' rel='stylesheet' type='text/css'>
@@ -21,7 +57,9 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics
+         OJO: UA-129163190-2 es Universal Analytics, que Google dejó de procesar en julio de 2023.
+         Sustituir por el ID de una propiedad GA4 (G-XXXXXXXXXX) en las dos líneas de abajo. -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129163190-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -35,7 +73,7 @@
     <!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <script src="assets/js/respond.min.js"></script> <![endif]-->
 
     <!-- Document Title ============================================= -->
-    <title>Kifiequi</title>
+    <title>Quiropráctica y rehabilitación equina | Kifiequi</title>
   </head>
 
   <body class="body-scroll">
@@ -64,7 +102,7 @@
                   <a data-scroll="scrollTo" href="#formacion-online">Formación Online</a>
                 </li>
                 <li>
-                  <a data-scroll="scrollTo" href="#lead-4">Sobre mi</a>
+                  <a data-scroll="scrollTo" href="#lead-4">Sobre mí</a>
                 </li>
                 <li>
                   <a data-scroll="scrollTo" href="#contactForm">Contacto</a>
@@ -76,295 +114,334 @@
         </nav>
       </header>
       <!-- Slider #1 ============================================= -->
-      <section id="hero" class="section hero">
-        <div class="bg-section">
-          <img class="iconKE" src="assets/images/background/kifiequimobile.png" alt="background">
-        </div>
+      <section id="hero" class="ke-hero">
         <div class="container">
-          <div class="row row-content">
-            <div class="col-12 col-md-6 col-lg-6">
-              <div class="hero-headline">Kifiequi
-              <div class="hero-bio">María K. García-Herrera Murillo</div>
-              <div class="hero-action">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+              <span class="ke-hero-eyebrow">Veterinaria · Fisioterapia y quiropráctica equina</span>
+              <h1 class="ke-hero-title">Quiropráctica y rehabilitación equina</h1>
+              <p class="ke-hero-text">Ayudo a tu caballo a moverse mejor y sin dolor: prevención de lesiones, tratamiento y mejora del rendimiento, con sesiones presenciales, asesorías online y formación para propietarios.</p>
+              <p class="ke-hero-name"><b>María K. García-Herrera Murillo</b> · Veterinaria, colegiada nº 9221</p>
+              <div class="ce-actions ke-hero-actions">
                 <a href="#contactForm" class="btn btn--primary" data-scroll="scrollTo">Contactar</a>
+                <a href="#lead-3" class="btn btn--bordered btn--primary" data-scroll="scrollTo">Ver servicios</a>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6"></div>
+            <div class="col-12 col-lg-6">
+              <div class="ke-collage">
+                <img class="ke-collage-main" src="assets/images/photos/portada-1.jpg" width="1200" height="800" alt="María palpando el dorso de un caballo tordo">
+                <img class="ke-collage-secondary" src="assets/images/photos/portada-2.jpg" width="1000" height="666" alt="María realizando un ajuste quiropráctico a un caballo" loading="lazy">
+              </div>
+            </div>
           </div>
-          <!-- .row end -->
         </div>
-        <!-- .container end -->
       </section>
       <!-- #slider end -->
 
-      <!-- Feature #2 ============================================= -->
-      <section id="lead-1" class="section feature feature-left bg-white">
+      <!-- Quiropráctica y rehabilitación ============================================= -->
+      <section id="lead-1" class="ke-section">
         <div class="container">
+          <div class="ke-header">
+            <span class="ke-eyebrow">Qué hago</span>
+            <h2 class="ke-title">Quiropráctica y rehabilitación</h2>
+          </div>
           <div class="row">
-            <div class="col-12">
-              <div class="heading heading-1 mb-50 mt-30">
-                <h2 class="heading-title">Quiropráctica y rehabilitación</h2>
-                <p class="heading-desc">En la equitación, los caballos son deportistas (incluyendo los caballos considerados de paseo) y como deportistas, sufren alteraciones músculos esqueléticas que van desde alteraciones leves como una subluxación vertebral, contractura muscular hasta patologías más graves como fracturas óseas, roturas de tendones… Todo ello va a conllevar a una pérdida del rendimiento y del bienestar animal.</p>
-                <p class="heading-desc">Cuando nos encontramos con pérdidas de rendimiento debemos de plantearnos las siguientes preguntas:</p>
-                <p class="heading-desc">Mi caballo no hace el ejercicio que le estoy exigiendo (siguiendo este orden):</p>
-                <ol>
-                  <li><p class="heading-desc">Porque no sabe hacerlo</p></li>
-                  <li><p class="heading-desc"><b>Porque no puede hacerlo</b></p></li>
-                  <li><p class="heading-desc">Porque no quiere hacerlo</p></li>
-                </ol>
-                <p class="heading-desc">Y en esa segunda opción entraría la quiropráctica y rehabilitación, hay caballos que tienen pérdidas de rendimiento debido a que están teniendo una subluxación vertebral que impide que esa vértebra se pueda mover correctamente, entre las vértebras nos encontramos el foramen intervertebral por el que salen los nervios, estos nervios pueden quedarse "atrapados" cuando dos vértebras están subluxadas, impidiendo un correcto movimiento biomecánico y produciendo dolor que les impide hacer el ejercicio que sus jinetes/amazonas les están pidiendo.</p>
-                <br>
-                <h3 class="heading-subtitle">¿Cómo trabaja la quiropráctica y rehabilitación?</h3>
-                <p class="heading-desc">La quiropráctica es una ciencia que mediante ajustes restaura la biomecánica de la columna vertebral por lo que ayuda a que el sistema nervioso funcione correctamente, ya que entre las vértebras se encuentran los forámenes intervertebrales de donde salen los nervios periféricos de la médula espinal.</p>
-                <p class="heading-desc">La rehabilitación es una rama de la medicina en donde se realizan prácticas, en su mayoría, no invasivas, complementarias al tratamiento médico o quirúrgico. La rehabilitación NO sustituye al diagnóstico ni al tratamiento veterinario. Dentro de esas prácticas nos encontramos terapias manuales, mecánicas, electroterapia y trabajo terapéutico.</p>
-                <p class="heading-desc">Así, con la combinación de ambas técnicas:</p>
-                 <ol>
-                  <li><p class="heading-desc">Ayudamos en la prevención de la aparición de lesiones, disminuir la posibilidad de lesión y las recidivas de estas, ya que se encarga de mantener el rango de movimiento de una articulación en su estado óptimo.</p></li>
-                  <li><p class="heading-desc">Tratamiento de lesiones músculo-esqueléticas tanto agudas como crónicas.</p></li>
-                  <li><p class="heading-desc">Mejorar el rendimiento deportivo mediante sesiones de mantenimiento y ejercicio terapéutico.</p></li>
-                </ol>
-                <p class="heading-desc">El reposo absoluto es un tratamiento contra-indicando en la mayoría de las patologías músuclo-esqueléticas, por lo debemos de apostar por programas de recuperación en movimiento. El tiempo NO lo cura todo.</p>
-                <p class="heading-desc">¿Sabes identificar si tu caballo presenta dolor? Te dejemos este etograma en donde puedes valorar si tu caballo presenta dolor mientras es montando.</p>
-              </div>
+            <div class="col-12 col-lg-7">
+              <p>En la equitación, los caballos son deportistas (incluyendo los caballos considerados de paseo) y como deportistas, sufren alteraciones músculos esqueléticas que van desde alteraciones leves como una subluxación vertebral, contractura muscular hasta patologías más graves como fracturas óseas, roturas de tendones… Todo ello va a conllevar a una pérdida del rendimiento y del bienestar animal.</p>
+              <p>Cuando nos encontramos con pérdidas de rendimiento debemos de plantearnos las siguientes preguntas. Mi caballo no hace el ejercicio que le estoy exigiendo (siguiendo este orden):</p>
+            </div>
+            <div class="col-12 col-lg-5">
+              <ol class="ke-reasons">
+                <li><span>1</span>Porque no sabe hacerlo</li>
+                <li class="is-highlight"><span>2</span>Porque no puede hacerlo</li>
+                <li><span>3</span>Porque no quiere hacerlo</li>
+              </ol>
             </div>
           </div>
-          <!-- .row end -->
-        </div>
-        <!-- .container end -->
-      </section>
-      <!-- #feature2 end -->
-      
+          <p>Y en esa segunda opción entraría la quiropráctica y rehabilitación, hay caballos que tienen pérdidas de rendimiento debido a que están teniendo una subluxación vertebral que impide que esa vértebra se pueda mover correctamente, entre las vértebras nos encontramos el foramen intervertebral por el que salen los nervios, estos nervios pueden quedarse "atrapados" cuando dos vértebras están subluxadas, impidiendo un correcto movimiento biomecánico y produciendo dolor que les impide hacer el ejercicio que sus jinetes/amazonas les están pidiendo.</p>
 
-      <!-- Feature #1 ============================================= -->
-      <section id="lead-2" class="section feature feature-3 bg-white pb-80" style="padding-top: 0px;">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-12 col-lg-12">
-              <div class="heading heading-1 text-center">
-                <h2 class="heading-title">Nuestra especialidad</h2>
+          <h3 class="ke-subtitle">¿Cómo trabaja la quiropráctica y rehabilitación?</h3>
+          <div class="row ke-card-row">
+            <div class="col-12 col-md-6">
+              <div class="ke-card">
+                <h4>Quiropráctica</h4>
+                <p>La quiropráctica es una ciencia que mediante ajustes restaura la biomecánica de la columna vertebral por lo que ayuda a que el sistema nervioso funcione correctamente, ya que entre las vértebras se encuentran los forámenes intervertebrales de donde salen los nervios periféricos de la médula espinal.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="ke-card">
+                <h4>Rehabilitación</h4>
+                <p>La rehabilitación es una rama de la medicina en donde se realizan prácticas, en su mayoría, no invasivas, complementarias al tratamiento médico o quirúrgico. La rehabilitación NO sustituye al diagnóstico ni al tratamiento veterinario. Dentro de esas prácticas nos encontramos terapias manuales, mecánicas, electroterapia y trabajo terapéutico.</p>
               </div>
             </div>
           </div>
-          <div class="row">
-            <!-- Panel #1 -->
-            <div class="col-12 col-md-4 col-lg-4">
-              <div class="feature-panel">
-                <div class="feature-img">
-                  <img class="iconKE" src="assets/images/icons/estetoscopio.png" alt="target">
-                </div>
-                <div class="feature-content">
-                  <h3>Prevención de lesiones</h3>
-                  <p>Disminuir la posibilidad de lesión y las recidivas de las mismas</p>
-                </div>
-              </div>
-              <!-- .feature-panel end -->
-            </div>
-            <!-- .col-md-4 end -->
 
-            <!-- Panel #2 -->
-            <div class="col-12 col-md-4 col-lg-4">
-              <div class="feature-panel">
-                <div class="feature-img">
-                  <img class="iconKE" src="assets/images/icons/musculos.png" alt="target">
-                </div>
-                <div class="feature-content">
-                  <h3>Mejora del rendimiento deportivo</h3>
-                  <p>Mediante sesiones de mantenimiento y ejercicio terapéutico</p>
-                </div>
+          <h3 class="ke-subtitle">Nuestra especialidad</h3>
+          <p>Así, con la combinación de ambas técnicas:</p>
+          <div class="row ke-card-row">
+            <div class="col-12 col-md-4">
+              <div class="ke-card ke-feature">
+                <img class="iconKE" src="assets/images/icons/estetoscopio.png" alt="">
+                <h4>Prevención de lesiones</h4>
+                <p>Ayudamos en la prevención de la aparición de lesiones, disminuir la posibilidad de lesión y las recidivas de estas, ya que se encarga de mantener el rango de movimiento de una articulación en su estado óptimo.</p>
               </div>
-              <!-- .feature-panel end -->
             </div>
-            <!-- .col-md-4 end -->
-            <!-- Panel #6 -->
-            <div class="col-12 col-md-4 col-lg-4">
-              <div class="feature-panel">
-                <div class="feature-img">
-                  <img class="iconKE" src="assets/images/icons/doctor.png" alt="target">
-                </div>
-                <div class="feature-content">
-                  <h3>Tratamiento de lesiones musculo-esqueléticas</h3>
-                  <p>Tanto agudas como crónicas</p>
-                </div>
+            <div class="col-12 col-md-4">
+              <div class="ke-card ke-feature">
+                <img class="iconKE" src="assets/images/icons/doctor.png" alt="">
+                <h4>Tratamiento de lesiones músculo-esqueléticas</h4>
+                <p>Tanto agudas como crónicas.</p>
               </div>
-              <!-- .feature-panel end -->
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="ke-card ke-feature">
+                <img class="iconKE" src="assets/images/icons/musculos.png" alt="">
+                <h4>Mejora del rendimiento deportivo</h4>
+                <p>Mediante sesiones de mantenimiento y ejercicio terapéutico.</p>
+              </div>
             </div>
           </div>
-          <!-- .row end -->
-        </div>
-        <!-- .container end -->
-      </section>
-      <!-- #speciality end -->
 
-      <section id="bar" class="bg-white pt-0 pb-0">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <hr class="hr-bar">
-            </div>
+          <div class="ke-callout">
+            <i class="fas fa-running"></i>
+            <p>El reposo absoluto es un tratamiento contra-indicando en la mayoría de las patologías músuclo-esqueléticas, por lo debemos de apostar por programas de recuperación en movimiento. <b>El tiempo NO lo cura todo.</b></p>
           </div>
+          <p class="ke-note">¿Sabes identificar si tu caballo presenta dolor? Te dejamos este <a href="https://files.constantcontact.com/5053f732801/b9329bf3-b527-4cd7-a204-ea1f8da25d6d.pdf" target="_blank" rel="noopener">etograma</a> en donde puedes valorar si tu caballo presenta dolor mientras es montando.</p>
         </div>
       </section>
 
-      <!-- Feature #2 ============================================= -->
-      <section id="lead-3" class="section feature feature-left bg-white">
+      <!-- Servicios ============================================= -->
+      <section id="lead-3" class="ke-section ke-section--alt">
         <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="heading heading-1 mb-50 mt-30">
-                <h2 class="heading-title">Servicios</h2>
-                <h3 class="heading-subtitle">Primera visita</h3>
-                <ul>
-                  <li><p class="heading-desc">Anamnesis (recogida de todos los datos de importancia para una correcta valoración del paciente).</p></li>
-                  <li><p class="heading-desc">Evaluación estática del paciente: observación (conformación, aplomos), palpación, movilización y estiramientos del sistema músculo-esquelético, además de una valoración de estado de la boca y herraje.</p></li>
-                  <li><p class="heading-desc">Evaluación del equipo que usa el caballo: cabezada, montura…</p></li>
-                  <li><p class="heading-desc">Evaluación dinámica del caballo: tanto en línea recta, a la cuerda, montado.</p></li>
-                  <li><p class="heading-desc">Entrega al propietario de un informe clínico al terminar la visita.</p></li>
-                  <li><p class="heading-desc">Un primer tratamiento quiropráctica + rehabilitación.</p></li>
-                </ul>
-                <h3 class="heading-subtitle">Sesiones de tratamiento</h3>
-                <p class="heading-desc">En las sesiones de tratamiento del paciente, los servicios que ofrecemos son:</p>
-                <ul>
-                  <li><p class="heading-desc">Quiropráctica</p></li>
-                  <li><p class="heading-desc">Masoterapia</p></li>
-                  <li><p class="heading-desc">Terapia miofascial</p></li>
-                  <li><p class="heading-desc">Movilizaciones y estiramientos activos y pasivos</p></li>
-                  <li><p class="heading-desc">Punción seca</p></li>
-                  <li><p class="heading-desc">Vendaje neuromuscular ("kinesio-taping")</p></li>
-                  <li><p class="heading-desc">Electroterapia de baja frecuencia (TENS/EMS)</p></li>
-                  <li><p class="heading-desc">Trabajo con ventosas.</p></li>
-                  <li><p class="heading-desc">Evaluación estado en forma y del programa de rehabilitación del caballo mediante Equisense®</p></li>
-                </ul>
-                <p class="heading-desc">Además de asesoramiento del programa de entrenamiento y se le recomendarán al propietario unos ejercicios para realizar.</p>
-                <p class="heading-desc">Estos servicios variarán si son sesiones de mantenimiento o sesiones de tratamiento para caballos lesionados (en este caso se realizarán estas sesiones en caballos ya diagnosticados por un veterinario y el trabajo se hará en colaboración con él para obtener el mejor resultado).</p>
-              </div>
-            </div>
+          <div class="ke-header">
+            <h2 class="ke-title">Servicios</h2>
           </div>
-          <!-- .row end -->
-            <div class="row" style="justify-content: center;">
-              <div class="col-12 col-lg-6 col-md-6">
-                <div class="price-wrapper">
-                  <p class="price-main-text">Sesión presencial</p>
-                  <p class="price-price-text">Desde 110€</p>
-                  <p class="price-subtext-text">(Precio sin IVA y desplazamiento no incluido)</p>
-                </div>
-              </div>
-            </div>
-            <br>
-            <p class="heading-desc note-price">Tenemos disponibilidad de bonos</p>
-        </div>
-        <!-- .container end -->
-        
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="heading heading-1 mb-50 mt-30">
-                 <h3 class="heading-subtitle">Asesorías/Consultas Online</h3>
-                 <p class="heading-desc">¿Te ha pasado que al profesional al que te gustaría realizarle una consulta no está cerca de ti? ¿Estás interesado en contactar con ese profesional, pero económicamente no puedes permitirte pagar una consulta presencial? A mí, me ha pasado, y por eso he decidido añadir el servicio de asesoría o consulta online. Gracias a este servicio me voy a poder reunir contigo de forma online y podremos tratar el tema que me quieras consultar. Las asesorías serán de unos 30 minutos en donde me podrás comentar tu caso, mostrar vídeos, fotos... Todo para que yo pueda ayudarte. Este servicio <b>NO sustituye</b> a una consulta presencial, en muchos casos, os recomendaré que vuestro veterinario examine al caballo, pero para consultas sobre el material que usáis en el caballo, valorar si ciertos comportamientos puedan estar relacionados con dolor o no, ver qué ejercicios se pueden realizar para conseguir una mejor musculatura de esa zona, valorar el trabajo a la cuerda que se está realizando, etc… Me parece una ayuda muy útil y por un precio muy asequible.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row" style="justify-content: center;">
-            <div class="col-12 col-lg-6 col-md-6">
-              <div class="price-wrapper">
-                <p class="price-main-text">Consulta de 40 minutos</p>
-                <p class="price-price-text">55,95€</p>
-                <p class="price-subtext-text">(Precio con IVA)</p>
-              </div>
-            </div>
-          </div>
-          <br>
-          <p class="heading-desc note-price">Si quieres más información o concretar una asesoría, ponte en contacto conmigo a través de mis redes sociales o correo electrónico.</p>
-      </section>
 
-      <section id="bar" class="bg-white pt-0 pb-0">
-        <div class="container">
           <div class="row">
-            <div class="col">
-              <hr class="hr-bar">
+            <div class="col-12 col-lg-6">
+              <h3 class="ke-block-title ke-block-title--first">Primera visita</h3>
+              <ul class="ce-checklist">
+                <li><i class="fas fa-check"></i>Anamnesis (recogida de todos los datos de importancia para una correcta valoración del paciente).</li>
+                <li><i class="fas fa-check"></i>Evaluación estática del paciente: observación (conformación, aplomos), palpación, movilización y estiramientos del sistema músculo-esquelético, además de una valoración de estado de la boca y herraje.</li>
+                <li><i class="fas fa-check"></i>Evaluación del equipo que usa el caballo: cabezada, montura…</li>
+                <li><i class="fas fa-check"></i>Evaluación dinámica del caballo: tanto en línea recta, a la cuerda, montado.</li>
+                <li><i class="fas fa-check"></i>Entrega al propietario de un informe clínico al terminar la visita.</li>
+                <li><i class="fas fa-check"></i>Un primer tratamiento quiropráctica + rehabilitación.</li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-6">
+              <h3 class="ke-block-title ke-block-title--first">Sesiones de tratamiento</h3>
+              <p>En las sesiones de tratamiento del paciente, los servicios que ofrecemos son:</p>
+              <ul class="ce-checklist">
+                <li><i class="fas fa-check"></i>Quiropráctica</li>
+                <li><i class="fas fa-check"></i>Masoterapia</li>
+                <li><i class="fas fa-check"></i>Terapia miofascial</li>
+                <li><i class="fas fa-check"></i>Movilizaciones y estiramientos activos y pasivos</li>
+                <li><i class="fas fa-check"></i>Punción seca</li>
+                <li><i class="fas fa-check"></i>Vendaje neuromuscular ("kinesio-taping")</li>
+                <li><i class="fas fa-check"></i>Electroterapia de baja frecuencia (TENS/EMS)</li>
+                <li><i class="fas fa-check"></i>Trabajo con ventosas.</li>
+                <li><i class="fas fa-check"></i>Evaluación estado en forma y del programa de rehabilitación del caballo mediante Equisense®</li>
+              </ul>
             </div>
           </div>
+          <p class="ke-after-lists">Además de asesoramiento del programa de entrenamiento y se le recomendarán al propietario unos ejercicios para realizar.</p>
+          <p>Estos servicios variarán si son sesiones de mantenimiento o sesiones de tratamiento para caballos lesionados (en este caso se realizarán estas sesiones en caballos ya diagnosticados por un veterinario y el trabajo se hará en colaboración con él para obtener el mejor resultado).</p>
+
+          <h3 class="ke-block-title">Asesorías/Consultas Online</h3>
+          <p>¿Te ha pasado que al profesional al que te gustaría realizarle una consulta no está cerca de ti? ¿Estás interesado en contactar con ese profesional, pero económicamente no puedes permitirte pagar una consulta presencial? A mí, me ha pasado, y por eso he decidido añadir el servicio de asesoría o consulta online. Gracias a este servicio me voy a poder reunir contigo de forma online y podremos tratar el tema que me quieras consultar. Las asesorías serán de unos 30 minutos en donde me podrás comentar tu caso, mostrar vídeos, fotos... Todo para que yo pueda ayudarte. Este servicio <b>NO sustituye</b> a una consulta presencial, en muchos casos, os recomendaré que vuestro veterinario examine al caballo, pero para consultas sobre el material que usáis en el caballo, valorar si ciertos comportamientos puedan estar relacionados con dolor o no, ver qué ejercicios se pueden realizar para conseguir una mejor musculatura de esa zona, valorar el trabajo a la cuerda que se está realizando, etc… Me parece una ayuda muy útil y por un precio muy asequible.</p>
+
+          <div class="row ke-prices">
+            <div class="col-12 col-md-6">
+              <div class="ke-price-card">
+                <span class="ke-price-label">Sesión presencial</span>
+                <p class="ke-price">Desde 110€</p>
+                <p class="ke-price-note">(Precio sin IVA y desplazamiento no incluido)</p>
+                <p class="ke-price-note">Tenemos disponibilidad de bonos</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="ke-price-card">
+                <span class="ke-price-label">Consulta online de 40 minutos</span>
+                <p class="ke-price">55,95€</p>
+                <p class="ke-price-note">(Precio con IVA)</p>
+              </div>
+            </div>
+          </div>
+          <p class="ke-note">Si quieres más información o concretar una asesoría, ponte en contacto conmigo a través de mis redes sociales o correo electrónico.</p>
         </div>
       </section>
-
-      <section id="bar" class="bg-white pt-0 pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <hr class="hr-bar">
-      </div>
-    </div>
-  </div>
-</section>
-
-
-      <!-- #bar end -->
 
       <!-- Formación Online Section -->
-      <section id="formacion-online" class="section feature feature-left bg-white">
+      <section id="formacion-online" class="ke-section">
         <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="heading heading-1 mb-50 mt-30">
-                <h2 class="heading-title">Formación Online</h2>
-                <h3 class="heading-subtitle">Programa Compromiso Equino</h3>
-                <p class="heading-desc">Una <b>formación 100% online</b> para propietarios y amantes de los caballos comprometidos y a los que la frase <i>"esto se ha hecho toda la vida así"</i> no les vale. Una formación orientada para que tengas los conocimientos básicos que todo propietario y/o amante de los caballos debería de saber para garantizar un óptimo estado de bienestar y para que tengas un juicio crítico a la hora de tomar decisiones sobre tu caballo.</p>
-                <p class="heading-desc">Consulta nuestra presentación completa para conocer todos los detalles:</p>
-                
-                <div class="text-center mb-4">
-                  <div style="margin: 30px 0;">
-                    <img src="assets/images/photos/compromiso-equino.png" alt="Programa Compromiso Equino" style="width: 100%; max-width: 750px; border-radius: 6px; margin: 0 auto; display: block;">
-                    <a href="https://www.canva.com/design/DAGTQFB9Bz8/O0q2cXH8SkoJTHJr2uMPtw/view" target="_blank" class="btn btn--primary" style="margin-top: 20px;">VER PRESENTACIÓN EN CANVA</a>
-                  </div>
-                </div>
-                
-                <p class="heading-desc"><b>Conviertete en el propietario que tu caballo necesita.</b></p>
-                 
-                 <p class="heading-desc">Si te ha gustado la información que has visto y quieres saber más, rellena el <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2RogDpdPk6DosTDaNuujmL0aPZtewplr-ePkG68m8OhZZjA/viewform" target="_blank" style="font-weight: bold;">formulario en este enlace</a> y me pondré en contacto contigo lo antes posible para resolverte todas tus dudas.</p>
-                </div>
+          <div class="ke-header">
+            <span class="ke-eyebrow">Formación Online</span>
+            <h2 class="ke-title">Programa Compromiso Equino</h2>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6 order-lg-2">
+              <img class="img-fluid ce-image" src="assets/images/photos/compromiso-equino.jpg" alt="Programa Compromiso Equino">
+            </div>
+            <div class="col-12 col-lg-6 order-lg-1">
+              <p class="ce-hook">Sabes que algo no va bien con tu caballo. Aquí aprendes a <span>explicar qué es</span>.</p>
+              <p>Una <b>formación 100% online</b> para propietarios, profesionales y amantes de los caballos a los que la frase <i>"esto siempre se ha hecho así"</i> no les vale. No te convierte en veterinario: te convierte en el propietario que tu caballo necesita.</p>
+              <ul class="ce-checklist">
+                <li><i class="fas fa-check"></i>Describir con detalle lo que observas en tu caballo</li>
+                <li><i class="fas fa-check"></i>Detectar el dolor a tiempo: palpación, constantes vitales y cojeras</li>
+                <li><i class="fas fa-check"></i>Elegir el equipo adecuado para tu caballo</li>
+                <li><i class="fas fa-check"></i>Tomar decisiones con criterio y argumentos</li>
+                <li><i class="fas fa-check"></i>Formar parte de una comunidad que te acompaña</li>
+              </ul>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section id="bar" class="bg-white pt-0 pb-0">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <hr class="hr-bar">
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <!-- Feature #2 ============================================= -->
-      <section id="lead-4" class="section feature feature-left bg-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
-              <div class="heading heading-1 mb-50 mt-30">
-                <h2 class="heading-title">Sobre mí</h2>
-                <p class="heading-desc"><strong>María K. García-Herrera Murillo</strong></p>
-                <p class="heading-desc">Número de colegiada 9221</p>
-                 <p class="heading-desc">Desde muy pequeña he vivido rodeada de caballos. A los 4 años empecé con clases de equitación, llegando a participar en campeonatos de España de ponis y a trabajar en una cuadra de salto en Alemania en 2019, aunque la disciplina que me gusta practicar es el completo.</p>
-                 <p class="heading-desc">Estudié <b>Veterinaria</b> en la Universidad Complutense de Madrid (UCM), terminando en 2018.</p>
-                 <p class="heading-desc">Durante la carrera también realicé el <b>Grado Medio Inicial de Técnico Deportivo en Equitación</b> y fui alumna interna en el Departamento de Medicina Interna y Cirugía de Grandes Animales del Hospital Clínico Veterinario Complutense (HCVC) de Madrid al igual que en el Departamento de Fisioterapia y Rehabilitación de Pequeños Animales de ese mismo hospital.</p>
-                 <p class="heading-desc">En 2020 terminé mi especialización en <b>Fisioterapia y Rehabilitación equina</b> con Equidinamia y en 2021 realicé un postgrado de <b>Quiropráctica Equina y Canina</b> con AIQA.</p>
-                 <p class="heading-desc">Me encanta seguir formándome y estar al día en el mundo de la equitación y por ello también creé un blog llamado <a href="https://inventarioecuestre.blogspot.com/">Inventario Ecuestre</a> en donde hago reseñas y más sobre productos ecuestres.</p>
+          <div class="row ce-facts">
+            <div class="col-6 col-md-3">
+              <div class="ce-fact">
+                <i class="fas fa-calendar-alt"></i>
+                <h4>16 semanas</h4>
+                <p>Contenido práctico aplicado a tu caballo</p>
               </div>
-              <!-- .feature-panel end -->
             </div>
-            <!-- .col-md-6 end -->
-            <div class="col-12 col-md-6 col-lg-6" style="display: flex; justify-content: center; align-items: center;">
-              <img class="img-fluid img-shadow pull-right" src="assets/images/photos/pal.jpg" style="max-height: 450px;" alt="about"/>
+            <div class="col-6 col-md-3">
+              <div class="ce-fact">
+                <i class="fas fa-play-circle"></i>
+                <h4>Vídeos cortos</h4>
+                <p>De 30 minutos o menos, a tu ritmo</p>
+              </div>
             </div>
-            <!-- .col-md-6 end -->
-
+            <div class="col-6 col-md-3">
+              <div class="ce-fact">
+                <i class="fas fa-video"></i>
+                <h4>Directo semanal</h4>
+                <p>Sesión de preguntas, con grabación</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="ce-fact">
+                <i class="fas fa-users"></i>
+                <h4>Comunidad</h4>
+                <p>En Discord, con respuesta en 48 h laborables</p>
+              </div>
+            </div>
           </div>
-          <!-- .row end -->
+
+          <h3 class="ce-section-title">Temario</h3>
+          <div class="row ce-module-row">
+            <div class="col-12 col-md-4">
+              <div class="ce-module">
+                <span class="ce-module-number">Bloque 1</span>
+                <h4>Lo que tu caballo necesita para estar bien</h4>
+                <p>Bienestar, condición corporal, digestión, cálculo de raciones, mantas y descanso.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="ce-module">
+                <span class="ce-module-number">Bloque 2</span>
+                <h4>Detectar el dolor antes de que sea un problema</h4>
+                <p>Palpación guiada, cojeras, cuidado de cascos, cólicos y constantes vitales.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="ce-module">
+                <span class="ce-module-number">Bloque 3</span>
+                <h4>El equipo que usas a diario</h4>
+                <p>Cabezadas, embocaduras, sillas y accesorios, con casos reales.</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="ce-for-you">Si tienes, cuidas o vas a comprar un caballo, notas que algo no va bien y quieres razones en lugar de instrucciones, <b>este programa es para ti</b>.</p>
+          <div class="ce-actions">
+            <a href="https://kifiequi.systeme.io/landingprogramacompromisoequino" target="_blank" rel="noopener" class="btn btn--primary">Ver el programa completo</a>
+            <a href="https://wa.me/34604846008" target="_blank" rel="noopener" class="btn btn--bordered btn--primary"><i class="fab fa-whatsapp"></i> ¿Dudas? Habla con María</a>
+          </div>
+
         </div>
-        <!-- .container end -->
+      </section>
+
+      <!-- Curso Alojamiento Equino ============================================= -->
+      <section id="curso-alojamiento" class="ke-section ke-section--alt">
+        <div class="container">
+          <div class="ke-header">
+            <span class="ke-eyebrow">Formación Online</span>
+            <h2 class="ke-title">Curso Alojamiento Equino</h2>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6 order-lg-2">
+              <img class="img-fluid ce-image" src="assets/images/photos/alojamiento-equino.jpg" alt="Caballo en un cercado con refugios de madera">
+            </div>
+            <div class="col-12 col-lg-6 order-lg-1">
+              <p class="ce-hook">Te ayudo a mejorar el bienestar de tu caballo <span>desde su alojamiento</span>.</p>
+              <p>Tu caballo pasa muchas horas en su box o cercado, y eso afecta a su salud física y mental. En este curso en vídeo aprenderás a mejorar su alojamiento, tanto en box como en cercado, sin necesidad de grandes recursos.</p>
+              <h3 class="ke-block-title">¿Para quién es?</h3>
+              <ul class="ce-checklist">
+                <li><i class="fas fa-check"></i>Propietarios con un caballo en cuadra o box que quieren lo mejor para él</li>
+                <li><i class="fas fa-check"></i>Quienes quieren acercar a su caballo a su "vida ideal": espacio abierto, manada y libertad</li>
+                <li><i class="fas fa-check"></i>Quienes buscan mejoras realistas, aunque no tengan grandes recursos o instalaciones</li>
+                <li><i class="fas fa-check"></i>Profesionales de la equitación que quieren mejorar las instalaciones de sus caballos</li>
+              </ul>
+              <h3 class="ke-block-title">Qué incluye</h3>
+              <ul class="ce-checklist">
+                <li><i class="fas fa-check"></i>Clases en vídeo claras y concisas</li>
+                <li><i class="fas fa-check"></i>PDF con esquemas y listas de productos para enriquecimiento ambiental</li>
+              </ul>
+              <div class="ce-actions ke-course-actions">
+                <a href="https://kifiequi.systeme.io/curso-alojamiento-equino" target="_blank" rel="noopener" class="btn btn--primary">Ver el curso</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Guía gratuita ============================================= -->
+      <section id="guia-gratuita" class="ke-section">
+        <div class="container">
+          <div class="ke-guide">
+            <div class="ke-guide-cover">
+              <img src="assets/images/photos/guia-hinchazon.png" width="665" height="938" alt="Portada de la guía: Mi caballo tiene las extremidades hinchadas ¿es normal?">
+            </div>
+            <div class="ke-guide-body">
+              <span class="ke-guide-badge">Gratis</span>
+              <span class="ke-eyebrow">Guía gratuita</span>
+              <h2 class="ke-title">Mi caballo tiene las extremidades hinchadas ¿es normal?</h2>
+              <p class="ke-guide-subtitle">La guía definitiva con los 7 motivos</p>
+              <p>Consigue tu guía gratuita apuntándote a la newsletter de Kifiequi, sin llenar tu bandeja de entrada de emails sin sentido.</p>
+              <a href="https://kifiequi.systeme.io/newsletter" target="_blank" rel="noopener" class="btn btn--primary">Consigue tu guía gratuita</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre mí ============================================= -->
+      <section id="lead-4" class="ke-section ke-section--alt">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-5">
+              <div class="ke-about-photo">
+                <img src="assets/images/photos/pal.jpg" alt="María K. García-Herrera con su caballo">
+              </div>
+            </div>
+            <div class="col-12 col-lg-7">
+              <div class="ke-header ke-header--left">
+                <span class="ke-eyebrow">Sobre mí</span>
+                <h2 class="ke-title">María K. García-Herrera Murillo</h2>
+                <p class="ke-about-id">Veterinaria · Número de colegiada 9221</p>
+              </div>
+              <p>Desde muy pequeña he vivido rodeada de caballos. A los 4 años empecé con clases de equitación, llegando a participar en campeonatos de España de ponis y a trabajar en una cuadra de salto en Alemania en 2019, aunque la disciplina que me gusta practicar es el completo.</p>
+              <p>Estudié <b>Veterinaria</b> en la Universidad Complutense de Madrid (UCM), terminando en 2018.</p>
+              <p>Durante la carrera también realicé el <b>Grado Medio Inicial de Técnico Deportivo en Equitación</b> y fui alumna interna en el Departamento de Medicina Interna y Cirugía de Grandes Animales del Hospital Clínico Veterinario Complutense (HCVC) de Madrid al igual que en el Departamento de Fisioterapia y Rehabilitación de Pequeños Animales de ese mismo hospital.</p>
+              <p>En 2020 terminé mi especialización en <b>Fisioterapia y Rehabilitación equina</b> con Equidinamia y en 2021 realicé un postgrado de <b>Quiropráctica Equina y Canina</b> con AIQA.</p>
+              <ul class="ke-credentials">
+                <li><i class="fas fa-graduation-cap"></i><span><b>Veterinaria</b> UCM · 2018</span></li>
+                <li><i class="fas fa-horse-head"></i><span><b>Fisioterapia y Rehabilitación equina</b> Equidinamia · 2020</span></li>
+                <li><i class="fas fa-award"></i><span><b>Quiropráctica Equina y Canina</b> AIQA · 2021</span></li>
+              </ul>
+              <p>Me encanta seguir formándome y estar al día en el mundo de la equitación y por ello también creé un blog llamado <a href="https://inventarioecuestre.blogspot.com/" target="_blank" rel="noopener">Inventario Ecuestre</a> en donde hago reseñas y más sobre productos ecuestres.</p>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- #feature2 end -->
       
@@ -443,133 +520,48 @@
       </section>
     -->
       
-      <!-- Action ============================================= -->
-      
-      <!-- #consultation end -->
-      <!-- Footer ============================================= -->
-      <section id="bar" class="bg-white pt-0 pb-0">
+      <!-- Contacto ============================================= -->
+      <section id="contactForm" class="ke-section">
         <div class="container">
-          <div class="row">
-            <div class="col">
-              <hr class="hr-bar">
+          <div class="ke-header">
+            <span class="ke-eyebrow">Contacto</span>
+            <h2 class="ke-title">¿Tienes alguna duda?</h2>
+            <p class="ke-intro">Puedes contactarnos sin ningún compromiso</p>
+          </div>
+          <div class="row ke-card-row">
+            <div class="col-12 col-md-4">
+              <a class="ke-card ke-contact" href="mailto:info@kifiequi.es">
+                <img class="iconKE" src="assets/images/icons/correo.png" alt="">
+                <h4>Email</h4>
+                <span>info@kifiequi.es</span>
+              </a>
+            </div>
+            <div class="col-12 col-md-4">
+              <a class="ke-card ke-contact" href="https://www.instagram.com/kifiequi/" target="_blank" rel="noopener">
+                <img class="iconKE" src="assets/images/icons/insta.png" alt="">
+                <h4>Instagram</h4>
+                <span>@kifiequi</span>
+              </a>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="ke-card ke-contact">
+                <img class="iconKE" src="assets/images/icons/calendario.png" alt="">
+                <h4>Horario</h4>
+                <span>Lunes-Viernes 9:00 a 20:00</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-        <div class="footer-top" id="contactForm">
-          <div class="container contactContainerTitle">
-           <div class="row">
-              <div class="feature-panel">
-                <div class="feature-content" style="margin-right: 16px; margin-left: 16px;">
-                  <h3>¿Tienes alguna duda?</h3>
-                  <p class="mb-30">Puedes contactarnos sin ningún compromiso</p>
-                  <!-- <ul>
-                    <li>Explain your health concerns.</li>
-                    <li>A Specialist will answer your questions.</li>
-                    <li>Review your case documents.</li>
-                    <li>Follow up your medical condition.</li>
-                    <li>Check your surgery result.</li>
-                  </ul> -->
-                </div>
-            </div>
-           </div>
-          </div>
-          <div class="container contactContainerContent">
-            <div class="row widget-boxes text-center">
-              <!-- <div class="col-12 col-md-4 col-lg-4">
-                <div class="widget-info-box">
-                  <div class="info-img">
-                    <img class="iconKE" src="assets/images/icons/telefono.png" alt="phone">
-                  </div>
-                  <h4>Phone</h4>
-                  <p>+34 XXXXXXXX</p>
-                </div>
-                
-              </div> -->
-              <!-- .col-md-4 end -->
-              <div class="col-12 col-md-4 col-lg-4">
-                <div class="widget-info-box">
-                  <div class="info-img">
-                    <img class="iconKE" src="assets/images/icons/correo.png" alt="phone">
-                  </div>
-                  <h4 class="contactTitle">Email</h4>
-                  <p><a href="mailTo:kifiequi@gmail.com">kifiequi@gmail.com</a></p>
-                </div>
-                <!-- .widget-info-box end -->
-              </div>
-              <!-- .col-md-4 end -->
-              <div class="col-12 col-md-4 col-lg-4">
-                <div class="widget-info-box">
-                  <div class="info-img">
-                    <img class="iconKE" src="assets/images/icons/insta.png" alt="phone">
-                  </div>
-                  <h4 class="contactTitle">Instagram</h4>
-                  <p><a href="https://www.instagram.com/kifiequi/">Kifiequi</a></p>
-                </div>
-                <!-- .widget-info-box end -->
-              </div>
-              <!-- .col-md-4 end -->
-              <div class="col-12 col-md-4 col-lg-4">
-                <div class="widget-info-box">
-                  <div class="info-img">
-                    <img class="iconKE" src="assets/images/icons/calendario.png" alt="phone">
-                  </div>
-                  <h4 class="contactTitle">Horario</h4>
-                  <p>Lunes-Viernes 9:00 a 20:00</p>
-                </div>
-                <!-- .widget-info-box end -->
-              </div>
-              <!-- .col-md-4 end -->
-            </div>
-            <!-- .row end -->
-          </div>
-          <!-- .container end -->
+      <footer class="ke-footer">
+        <div class="container">
+          <img class="ke-footer-logo" src="assets/images/photos/logo.png" alt="Kifiequi">
+          <span>&copy; Kifiequi. Todos los derechos reservados.</span>
+          <a href="https://www.instagram.com/kifiequi/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
         </div>
-        <!-- .footer-top end -->
-        <div class="footer-bar">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <hr>
-              </div>
-            </div>
-          </div>
-          <!-- .container end -->
-        </div>
-        <!-- .footer-bar end -->
-        <div class="footer-bottom">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-6">
-                <div class="footer-copyright" style="margin-bottom: 16px;">
-                  <span>&copy; Kifiequi, All Rights Reserved.</span>
-                </div>
-              </div>
-              <!-- .col-md-6 end -->
-              <!-- <div class="col-12 col-md-6 col-lg-6">
-                <div class="footer-social">
-                  <a class="facebook" href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                  <a class="twitter" href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                  <a class="dribbble" href="#">
-                    <i class="fa fa-dribbble"></i>
-                  </a>
-                  <a class="instagram" href="#">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                </div>
-              </div> -->
-              <!-- .col-md-6 end -->
-            </div>
-            <!-- .row end -->
-          </div>
-          <!-- .container end -->
-        </div>
-        <!-- .footer-bottom end -->
+      </footer>
+    </div>
     <!-- #wrapper end -->
 
     <!-- Footer Scripts ============================================= -->
